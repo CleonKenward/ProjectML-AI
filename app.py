@@ -3,6 +3,13 @@ import joblib
 import re
 import nltk
 
+
+import nltk
+
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('punkt_tab')
+
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
